@@ -1,0 +1,27 @@
+## Beginning of the cleaning process for the public dataset: FitBit Fitness Tracker Data found on Kaggle.com
+
+Opened .CSV file 'dailyActivty_merged' on Google Sheets
+  Adjusted all decimals under any "Distance" category to fall under the '0.00' format for readability.
+
+Opened .CSV file 'dailyIntensities_merged' on Google Sheets
+  Adjusted all decimals under any "Distance" category to fall under the '0.00' format for readability.
+  
+Opened .CSV file 'hourlyCalories_merged' on Google Sheets
+  Split the column 'ActivityDay' to reflect seperate columns - one for ActivityDay and the other for HourlyTime. 
+
+Opened .CSV file 'hourlyIntensities_merge' on Google Sheets
+  Adjusted all decimals under column 'AverageIntensity' to fall under the '0.00' format for readability.
+  Split the column 'ActivityHour' to reflect seperate columns - one for ActivityDay and the other for HourlyTime. 
+  
+Opened .CSV file 'hourlySteps_merged' on Google Sheets
+  Split the column 'ActivityHour' to reflect seperate columns - one for ActivityDay and the other for HourlyTime.
+
+#### personal note - minute based files will have to be opened with BigQuery due to file size
+
+Opened .CSV file 'sleepDay_merged' on Google Sheets
+  Removed the time from column SleepDay and left only date, as time was 12:00:00 AM for every entry.
+  
+Opened .CSV file 'weightLogInfo_merged' on Google Sheets
+  Adjusted all decimals to fall under the '0.00' format for readability.
+  Split the column Date to reflect seperate columns - one for Date and the other for Time.
+  Deleted 'Fat' column - only two entries of the 30 were recorded so data is insufficient.
