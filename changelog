@@ -5,6 +5,9 @@
 Opened .CSV file 'dailyActivty_merged' on Google Sheets
   Adjusted all decimals under any "Distance" category to fall under the '0.00' format for readability.
   Converted data type of ActivityDate to date and number format for future use in RStudio. 
+  Copied data from spreadsheet into a new spreadsheet for data manipulation.
+  Converted ActivityDate to text format to represent Weekday.
+  Deleted all columns and left only Weekday and Calories column, saved as .CSV file 'Weekdays'
 
 Opened .CSV file 'dailyIntensities_merged' on Google Sheets
   Adjusted all decimals under any "Distance" category to fall under the '0.00' format for readability.
@@ -26,6 +29,7 @@ Opened .CSV file 'hourlySteps_merged' on Google Sheets
 Opened .CSV file 'sleepDay_merged' on Google Sheets
   Removed the time from column SleepDay and left only date, as time was 12:00:00 AM for every entry.
   Converted data type of SleepDay to date and number format for future use in RStudio.
+
   
   
 ### RStudio
