@@ -36,3 +36,4 @@ Opened .CSV file 'sleepDay_merged' on Google Sheets
 
 Uploaded all cleaned .CSV files into RStudio Cloud
   Renamed files to only include a short hand description with all lower case letters and "_" seperating words for readability and ease for coding. 
+  Began processing and analyzing data and created an R Markdown to show results. 
